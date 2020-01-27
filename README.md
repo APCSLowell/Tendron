@@ -17,7 +17,9 @@ Suggested steps to completing this assignment:
 ----------------------------------------------
 1. Fork and clone down this repository   
 
-2. TBD
+2. Complete the `Cluster` class which has one public method, `show`. The display method creates seven tendrils by creating Tendril objects and then invoking their `show` methods.
+
+3. Complete the `Tendril` class which does the actual drawing through its only method, `show`. The `show` method draws the tendril using [Processing's `line()` function](https://processing.org/reference/line_.html). The functions `line` and `stroke` are the only functions you need to draw your image.
 
 
 
