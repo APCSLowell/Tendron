@@ -13,7 +13,7 @@ class Tendril
         x, y  starting (x,y) coordinates
         basePoint a reference to the starting point
      */
-    public void display(int nSegs, double theta, int x, int y, Point basePoint)
+    public void show(int nSegs, double theta, int x, int y, Point basePoint)
     {
         //your code here
     }
