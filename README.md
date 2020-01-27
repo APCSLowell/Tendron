@@ -3,7 +3,7 @@ Tendron
 
 In this lab, you will use recursion to generate a graphic image. Your code will draw a "plant" recursively, modifying the structure as the elements get smaller, going through smaller branches and finally to leaves. Every time the `draw()` function runs, it generates a new and different plant since growth occurs randomly.   
 
-The main program, `Tendron.pde`, sets up `size()` and `background()`. Then when `draw()` is called, it creates a new `Cluster`and calls the `show()` function of the Cluster class, telling it to draw a cluster starting at the midpoint of the screen using 50 short segments.      
+The main program, `Tendron.pde`, sets up the `size()` and `background()`. Then when `draw()` is called, it creates a new `Cluster`and calls the `show()` function of the Cluster class, telling it to draw a cluster starting at the midpoint of the screen using 50 short segments.      
 
 A cluster is a group of seven tendrils. Each tendril is made of a series of short line segments, and as each segment is drawn, it may turn a bit left or right, giving a more life-like appearance.   
 
