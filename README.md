@@ -13,4 +13,20 @@ At the end of each tendril, a new cluster is created. The new cluster will have 
 
 When drawn, the tendrils together look very plant-like for such a simple algorithm. The effect is enhanced by using the tendril length to determine the line color used when drawing.   
 
+Suggested steps to completing this assignment:
+----------------------------------------------
+1. Fork and clone down this repository   
+
+2. TBD
+
+
+
+Extensions
+----------------------
+Have fun and be creative. Your Tendron doesn't have to look like any other.
+
+Samples of Student Work
+-----------------------
+None yet!   
+
 *Note: this assignment was adapted from [Roger Frank's APCS assignment](https://web.archive.org/web/20100118105220/http://rfrank.net:80/cslabs-final/1640-tendron/1640.html)*
