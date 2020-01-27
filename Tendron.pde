@@ -10,7 +10,7 @@ public void draw()
   background(255);
   Cluster c = new Cluster();
   // initial segment length, startX, startY
-  c.display(50, 250, 250);
+  c.show(50, 250, 250);
 }
 public void mousePressed()
 {
