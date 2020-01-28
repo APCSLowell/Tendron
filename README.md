@@ -9,7 +9,7 @@ A cluster is a group of seven tendrils. Each tendril is made of a series of shor
 
 At the end of each tendril, a new cluster is created. The new cluster will have fewer line segments, therefore each tendril will be shorter than before. Recursively, these tendrils will again spawn clusters until a minimum tendril length is reached. Here is the final result:
 
-![Alt text](Tendril.gif)    
+![Alt text](Tendron.gif)    
 
 When drawn, the tendrils together look very plant-like for such a simple algorithm. The effect is enhanced by using the tendril length to determine the line color used when drawing.   
 
