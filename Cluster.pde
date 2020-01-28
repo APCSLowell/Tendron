@@ -1,11 +1,9 @@
 public class Cluster
 {
-    public final static int NTPC = 7;// number of stems/leafs per cluster
-    private Point basePoint;
+    public final static int NUM_STEMS = 8;  //number of stems/leafs per cluster
 
-    public void show(int size, int x0, int y0)
+    public void show(int len, int x0, int y0)
     {
-        //Your code here
+        //your code here
     }
-
 }
