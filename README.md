@@ -24,12 +24,12 @@ Suggested steps to completing this assignment:
 3. Complete the `Tendril` class `show()` function which does the actual drawing. The `show` method draws the tendril using only the two Processing functions [`line`](https://processing.org/reference/line_.html) and [`stroke`](https://processing.org/reference/stroke_.html). In drawing the tendril, we will wiggle the direction with random walk for a life-like appearance. Here's one way to randomly wiggle the line: 
 
     * repeat `len` times
-     * Change `theta` by a random decimal from -0.2 to 0.2
-     * declare `endX` and initialize it to `x` plus the cosine of `theta` times 4
-     * declare `endY` and initialize it to `y` plus the sine of `theta` times 4
-     * draw a line from (x,y) to (endX,endY)
-     * Set `x` to `endX`
-     * Set `y` to `endY`
+      * Change `theta` by a random decimal from -0.2 to 0.2
+      * declare `endX` and initialize it to `x` plus the cosine of `theta` times 4
+      * declare `endY` and initialize it to `y` plus the sine of `theta` times 4
+      * draw a line from (x,y) to (endX,endY)
+      * Set `x` to `endX`
+      * Set `y` to `endY`
 
 
 Extensions
