@@ -31,6 +31,8 @@ Suggested steps to completing this assignment:
       * Set `x` to `endX`
       * Set `y` to `endY`
 
+4. Run your program. You should see one random tendril every time you click the screen
+![Alt text](Tendron2.gif)    
 
 Extensions
 ----------------------
