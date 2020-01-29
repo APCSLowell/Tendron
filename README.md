@@ -7,9 +7,7 @@ Your code will draw the Tendron recursively, modifying the structure as the elem
 
 The main program, `Tendron.pde`, sets up the `size()` and `background()`. Then when `draw()` is called, it creates a new `Cluster` by calling the constructor of the `Cluster` class, telling it to create a cluster of tendrils starting at the midpoint of the screen with each tendril using 50 short segments.      
 
-A cluster is a group of seven tendrils. Each tendril is made of a series of short line segments, and as each segment is drawn, it may turn a bit left or right, giving a more life-like appearance.   
-
-At the end of each tendril, a new cluster is created. The new cluster will have fewer line segments, therefore each tendril will be shorter than before. Recursively, these tendrils will again spawn clusters until a minimum tendril length is reached. Here is the final result:
+The cluster of seven tendrils each randomly turn a bit left or right as they move out from the center. At the end of each tendril, a new cluster is created. The new cluster will have fewer line segments, therefore each tendril will be shorter than before. Recursively, these tendrils will again spawn clusters until a minimum tendril length is reached. Here is the final result:
 
 ![Alt text](Tendron.gif)    
 
