@@ -13,7 +13,7 @@ At the end of each tendril, a new cluster is created. The new cluster will have 
 
 ![Alt text](Tendron.gif)    
 
-When drawn, the tendrils together look very plant-like for such a simple algorithm. The effect is enhanced by using the tendril length to determine the line color used when drawing.   
+When drawn, the tendrils together look very plant-like for such a simple algorithm. The effect is enhanced by using the tendril length to determine the `stroke` used when drawing.   
 
 Suggested steps to completing this assignment:
 ----------------------------------------------
