@@ -28,7 +28,7 @@ Suggested steps to completing this assignment:
     * repeat `myNumSegments` times
       * Change `myAngle` by adding a random decimal from -0.2 to 0.2
       * declare `endX` and initialize it to `startX` plus the cosine of `myAngle` times the segment length
-      * declare `endY` and initialize it to `startY` plus the sine of `theta` times the segment length
+      * declare `endY` and initialize it to `startY` plus the sine of `myAngle` times the segment length
       * draw a line from (`startX`,`startY`) to (`endX`,`endY`)
       * Set `startX` to `endX`
       * Set `startY` to `endY`
