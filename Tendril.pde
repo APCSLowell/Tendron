@@ -2,7 +2,7 @@ class Tendril
 {
     /**
       this method displays a tendril
-        len is how many segments in this tendril (each a fixed length)
+        len is how many segments in this tendril (each a fixed length, 4 is a good start)
         theta is tendril starting angle in radians 
         x, y  starting (x,y) coordinates
      */
