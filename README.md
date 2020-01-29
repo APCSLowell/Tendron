@@ -26,7 +26,7 @@ Suggested steps to completing this assignment:
     * repeat `len` times
       * Change `theta` by adding a random decimal from -0.2 to 0.2
       * declare `endX` and initialize it to `x` plus the cosine of `theta` times the segment length
-      * declare `endY` and initialize it to `y` plus the sine of `theta` times the segments length
+      * declare `endY` and initialize it to `y` plus the sine of `theta` times the segment length
       * draw a line from (`x`,`y`) to (`endX`,`endY`)
       * Set `x` to `endX`
       * Set `y` to `endY`
