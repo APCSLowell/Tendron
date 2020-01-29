@@ -35,7 +35,7 @@ Suggested steps to completing this assignment:
 ![Alt text](Tendron2.gif)    
 5. Now go back to the `Cluster` constructor and modify it to make seven Tendrils
 6. In the Tendril `show()` add code that recursively creates a new `Cluster` at the end of each Tendril if `len` is greater than 3 or some other value
-7. Add code at the beginning of the Tendril `show()` function to determine the 'stroke()` used when drawing.
+7. Add code at the beginning of the Tendril `show()` function to determine the `stroke()` used when drawing.
 
 Extensions
 ----------------------
