@@ -1,11 +1,11 @@
 Tendron
 ==================
 
-In this lab, you will use recursion to generate a Tendron. A Tendron has a cluster of 7 tendrils. At the end of each Tendril is a cluster of 7 smaller tendrils. This pattern of clusters of tendrils repeats until the tendrils become too small. You can think of this as a slightly more complex Fractal tree. Instead of 2 branches in a v shape, there are 7 tendrils that radiate in all directions. Instead of straight branches, the tendrils wiggle randomly left and right as they radiate outward.
+In this lab, you will use recursion to generate a tendron. A tendron has a cluster of 7 tendrils. At the end of each tendril is a cluster of 7 smaller tendrils. This pattern of clusters of tendrils repeats until the tendrils until a minimum tendril length is reached. You can think of this as a slightly more complex Fractal tree. Instead of 2 branches in a v shape, there are 7 tendrils that radiate in all directions. Instead of straight branches, the tendrils wiggle randomly left and right as they radiate outward.
 
 Your code will draw the Tendron recursively, modifying the structure as the elements get smaller, going through smaller tendrils and clusters. Every time the `draw()` function runs, it generates a new and different Tendron since growth occurs randomly.   
 
-The main program, `Tendron.pde`, sets up the `size()` and `background()`. Then when `draw()` is called, it creates a new `Cluster`and calls the constructor of the Cluster class, telling it to draw a cluster of tendrils starting at the midpoint of the screen with each tendril using 50 short segments.      
+The main program, `Tendron.pde`, sets up the `size()` and `background()`. Then when `draw()` is called, it creates a new `Cluster` by calling the constructor of the Cluster class, telling it to draw a cluster of tendrils starting at the midpoint of the screen with each tendril using 50 short segments.      
 
 A cluster is a group of seven tendrils. Each tendril is made of a series of short line segments, and as each segment is drawn, it may turn a bit left or right, giving a more life-like appearance.   
 
@@ -19,7 +19,7 @@ Suggested steps to completing this assignment:
 ----------------------------------------------
 1. Fork and clone down this repository   
 
-2. Write code in the `Cluster` class constructor which makes one Tendril. Then show the Tendril with a random angle between 0 and 2π.
+2. Write code in the `Cluster` class constructor which makes one `new Tendril()`. Then show the tendril with a random angle between 0 and 2π.
 
 3. Complete the `Tendril` class `show()` function which does the actual drawing. The `show` method draws the tendril using only the two Processing functions [`line`](https://processing.org/reference/line_.html) and [`stroke`](https://processing.org/reference/stroke_.html). In drawing the tendril, we will wiggle the direction with random walk for a life-like appearance. Here's one way to randomly wiggle the line: 
 
@@ -33,10 +33,13 @@ Suggested steps to completing this assignment:
 
 4. Run your program. You should see one random tendril every time you click the screen
 ![Alt text](Tendron2.gif)    
+5. Now go back to the `Cluster` constructor and modify it to make seven Tendrils
+6. In the Tendril `show()` add code that recursively creates a new `Cluster` at the end of each Tendril if `len` is greater than 3 or some other value
+7. Add code at the beginning of the Tendril `show()` function to determine the 'stroke()` used when drawing.
 
 Extensions
 ----------------------
-Have fun and be creative. Your Tendron doesn't have to look like any other.
+The instructions above are only a suggestion. Have fun and be creative. Your Tendron doesn't have to look like any other.
 
 Samples of Student Work
 -----------------------
