@@ -37,7 +37,7 @@ Suggested steps to completing this assignment:
 
 4. Run your program. You should see one random tendril every time you click the screen
 ![Alt text](Tendron2.gif)    
-5. Now go back to the `Cluster` constructor and modify it to make 7 Tendrils. You may want to have each tendril start with an angle that is a multiple of π/7.
+5. Now go back to the `Cluster` constructor and modify it to make 7 Tendrils. You may want to evenly space each tendril's angle so that is a multiple of 2π/7.
 6. In the Tendril `show()` add code that recursively creates a new `Cluster` at the end of each Tendril if `myNumSegments` is the minimum tendril length (3 is a good choice)
 7. Add code at the beginning of the tendril `show()` function to change the `stroke()` based on the length of the tendril.
 
