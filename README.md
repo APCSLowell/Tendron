@@ -21,20 +21,24 @@ Suggested steps to completing this assignment:
 
 2. Write code in the `Cluster` class constructor to make one `new Tendril()`. Then show the tendril with a random angle between 0 and 2π. We'll add more tendrils to the cluster later.
 
+2. Complete the `Tendril` class constructor
+
 3. Complete the `Tendril` class `show()` function which does the actual drawing. The `show` method draws the tendril using only the two Processing functions [`line`](https://processing.org/reference/line_.html) and [`stroke`](https://processing.org/reference/stroke_.html). In drawing the tendril, we will wiggle the direction with a random walk (similar to the [Lightning](https://github.com/APCSLowell/Lightning#lightning) assignment) for a life-like appearance. Here's one way to randomly wiggle the line: 
 
-    * repeat `len` times
-      * Change `theta` by adding a random decimal from -0.2 to 0.2
-      * declare `endX` and initialize it to `x` plus the cosine of `theta` times the segment length
-      * declare `endY` and initialize it to `y` plus the sine of `theta` times the segment length
-      * draw a line from (`x`,`y`) to (`endX`,`endY`)
-      * Set `x` to `endX`
-      * Set `y` to `endY`
+    * declare `startX` and initialize it to `myX`
+    * declare `startY` and initialize it to `myY`
+    * repeat `myNumSegments` times
+      * Change `myAngle` by adding a random decimal from -0.2 to 0.2
+      * declare `endX` and initialize it to `startX` plus the cosine of `myAngle` times the segment length
+      * declare `endY` and initialize it to `startY` plus the sine of `theta` times the segment length
+      * draw a line from (`startX`,`startY`) to (`endX`,`endY`)
+      * Set `startX` to `endX`
+      * Set `startY` to `endY`
 
 4. Run your program. You should see one random tendril every time you click the screen
 ![Alt text](Tendron2.gif)    
-5. Now go back to the `Cluster` constructor and modify it to make 7 Tendrils
-6. In the Tendril `show()` add code that recursively creates a new `Cluster` at the end of each Tendril if `len` is the minimum tendril length (3 is a good choice)
+5. Now go back to the `Cluster` constructor and modify it to make 7 Tendrils. You may want to have each tendril start with an angle that is a multiple of π/7.
+6. In the Tendril `show()` add code that recursively creates a new `Cluster` at the end of each Tendril if `myNumSegments` is the minimum tendril length (3 is a good choice)
 7. Add code at the beginning of the tendril `show()` function to change the `stroke()` based on the length of the tendril.
 
 Extensions
