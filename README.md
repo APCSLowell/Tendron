@@ -17,11 +17,11 @@ Suggested steps to completing this assignment:
 ----------------------------------------------
 1. Fork and clone down this repository   
 
-2. Write code in the `Cluster` class constructor to make one `new Tendril()`. Then show the tendril with a random angle between 0 and 2π. We'll add more tendrils to the cluster later.
-
 2. Complete the `Tendril` class constructor
 
-3. Complete the `Tendril` class `show()` function which does the actual drawing. The `show` method draws the tendril using only the two Processing functions [`line`](https://processing.org/reference/line_.html) and [`stroke`](https://processing.org/reference/stroke_.html). In drawing the tendril, we will wiggle the direction with a random walk (similar to the [Lightning](https://github.com/APCSLowell/Lightning#lightning) assignment) for a life-like appearance. Here's one way to randomly wiggle the line: 
+3. Write code in the `Cluster` class constructor that calls the constructor to make one `new Tendril()` with a random angle between 0 and 2π. Then call the tendril's `show()` function.  We'll add more tendrils to the cluster later.
+
+4. Complete the `Tendril` class `show()` function which does the actual drawing. The `show` method draws the tendril using only the two Processing functions [`line`](https://processing.org/reference/line_.html) and [`stroke`](https://processing.org/reference/stroke_.html). In drawing the tendril, we will wiggle the direction with a random walk (similar to the [Lightning](https://github.com/APCSLowell/Lightning#lightning) assignment) for a life-like appearance. Here's one way to randomly wiggle the line: 
 
     * declare `startX` and initialize it to `myX`
     * declare `startY` and initialize it to `myY`
