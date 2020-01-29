@@ -5,7 +5,7 @@ In this lab, you will use recursion to generate a tendron. A tendron has a clust
 
 Your code will draw the Tendron recursively, modifying the structure as the elements get smaller, going through smaller tendrils and clusters. Every time the `draw()` function runs, it generates a new and different Tendron since growth occurs randomly.   
 
-The main program, `Tendron.pde`, sets up the `size()` and `background()`. Then when `draw()` is called, it creates a new `Cluster` by calling the constructor of the `Cluster` class, telling it to create a cluster of tendrils starting at the midpoint of the screen with each tendril using 50 short segments.      
+The main program, `Tendron.pde`, sets up the `size()` and `background()`. Then when `draw()` is called, it creates a new cluster by calling the constructor of the `Cluster` class, telling it to create a cluster of tendrils starting at the midpoint of the screen with each tendril using 50 short segments.      
 
 The cluster of seven tendrils each randomly turn a bit left or right as they move out from the center. At the end of each tendril, a new cluster is created. The new cluster will have fewer line segments, therefore each tendril will be shorter than before. Recursively, these tendrils will again spawn clusters until a minimum tendril length is reached. Here is the final result:
 
