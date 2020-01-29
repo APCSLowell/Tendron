@@ -8,9 +8,7 @@ public void setup()
 public void draw()
 {
   background(255);
-  Cluster c = new Cluster();
-  // initial segment length, startX, startY
-  c.show(50, 250, 250);
+  Cluster c = new Cluster(50, 250, 250); // initial segment length, startX, startY
 }
 public void mousePressed()
 {
